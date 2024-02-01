@@ -1,0 +1,94 @@
+Xml = <?xml version="1.0" encoding="utf-8" standalone="no"?><TenderSignData>
+  <TenderNumber>T-0000012</TenderNumber>
+  <OrganizerInfo>ncalayer company2</OrganizerInfo>
+  <ConfigName>Аукцион на понижение</ConfigName>
+  <TenderDocuments/>
+  <TenderContactPersons>
+    <ContactPerson xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <PersonUid>98c82a39-e9ab-45cf-86e1-1e8f2d070d4b</PersonUid>
+      <FullName>ТЕСТОВ ТЕСТОВИЧ</FullName>
+      <Email>ncalayer2@example.com</Email>
+      <Phone>34332434234233</Phone>
+    </ContactPerson>
+  </TenderContactPersons>
+  <Lots>
+    <Lot>
+      <LotNumberFull>T-0000012/1</LotNumberFull>
+      <LotDocuments/>
+      <LotItems/>
+      <LotFields>
+        <Title>Лот №1</Title>
+        <Price.Value/>
+        <PriceCurrency>Тенге</PriceCurrency>
+        <PriceStep> </PriceStep>
+        <WinnerSelectionLevel>Победитель выбирается по лоту</WinnerSelectionLevel>
+        <Kato/>
+        <Notes/>
+      </LotFields>
+    </Lot>
+  </Lots>
+  <TenderFields>
+    <Title>Аукцион вниз</Title>
+    <RequestReceivingBeginDateType>Указанная дата</RequestReceivingBeginDateType>
+    <RequestReceivingBeginDate/>
+    <RequestReceivingEndDateType>Указанная дата</RequestReceivingEndDateType>
+    <RequestReceivingEndDate/>
+    <BidReceivingBeginDate/>
+    <PriceCurrency>Тенге</PriceCurrency>
+    <ParticipationForm>Открытая</ParticipationForm>
+    <VisibilityForm>Открытая</VisibilityForm>
+    <ParticipationRequestForm>Открытая</ParticipationRequestForm>
+    <EconomicActivity/>
+    <Notes/>
+  </TenderFields>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="urn:ietf:params:xml:ns:pkigovkz:xmlsec:algorithms:gostr34102015-gostr34112015-512"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="urn:ietf:params:xml:ns:pkigovkz:xmlsec:algorithms:gostr34112015-512"/>
+<ds:DigestValue>Q7hZNY1KCHjXdN+Q21OV4t3kqxam0kNoVX1E7cwPV5SGnA4wB2DEPtROvrpyGAh+KqHlV5JtPbmN
+4C38OJ7x9w==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+X74KkFYiSVltNJ+XAkdPlH9GJWPAyhnEGf5+Z3v5Db1y2Xa431P5lHdRTaWBqLovQ7Hyz0Exluis
+GWa0KJJwjkcZ/L7tWJIVYKgMhQg6jULF0W2cvGDhligdNw1FQgdtWDRkwCBI0U7InoSivrK6u3Zd
+JgH94PKbdNA7QoV39sQ=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIENjCCA56gAwIBAgIUEUcodYLfm7RxDkYYBKzUm4i/RcQwDgYKKoMOAwoBAQIDAgUAMF0xTjBM
+BgNVBAMMRdKw0JvQotCi0KvSmiDQmtCj05jQm9CQ0J3QlNCr0KDQo9Co0Ksg0J7QoNCi0JDQm9Cr
+0pogKEdPU1QpIFRFU1QgMjAyMjELMAkGA1UEBhMCS1owHhcNMjMxMTA5MTAxODQwWhcNMjQxMTA4
+MTAxODQwWjB5MR4wHAYDVQQDDBXQotCV0KHQotCe0JIg0KLQldCh0KIxFTATBgNVBAQMDNCi0JXQ
+odCi0J7QkjEYMBYGA1UEBRMPSUlOMTIzNDU2Nzg5MDExMQswCQYDVQQGEwJLWjEZMBcGA1UEKgwQ
+0KLQldCh0KLQntCS0JjQpzCBrDAjBgkqgw4DCgEBAgIwFgYKKoMOAwoBAQICAQYIKoMOAwoBAwMD
+gYQABIGA2vzSnxC/K74V0b9QzJ/r2mM9GxhbOosYKI0SBCnAo2IbeA5HKzzhlt5PhEeGEdTN4wr9
+bW+xR4vxEBVqDniAYRR6unCfzOmRy7nMo5yA4JPwu8724OZlwe2CEBsmBytAyReCth6RZMyeAzTD
+/S6ayoBmKfVAlCFB9BX5cEJVV2qjggHGMIIBwjA4BgNVHSAEMTAvMC0GBiqDDgMDAjAjMCEGCCsG
+AQUFBwIBFhVodHRwOi8vcGtpLmdvdi5rei9jcHMwdwYIKwYBBQUHAQEEazBpMCgGCCsGAQUFBzAB
+hhxodHRwOi8vdGVzdC5wa2kuZ292Lmt6L29jc3AvMD0GCCsGAQUFBzAChjFodHRwOi8vdGVzdC5w
+a2kuZ292Lmt6L2NlcnQvbmNhX2dvc3QyMDIyX3Rlc3QuY2VyMEEGA1UdHwQ6MDgwNqA0oDKGMGh0
+dHA6Ly90ZXN0LnBraS5nb3Yua3ovY3JsL25jYV9nb3N0MjAyMl90ZXN0LmNybDBDBgNVHS4EPDA6
+MDigNqA0hjJodHRwOi8vdGVzdC5wa2kuZ292Lmt6L2NybC9uY2FfZ29zdDIwMjJfZF90ZXN0LmNy
+bDAdBgNVHSUEFjAUBggrBgEFBQcDBAYIKoMOAwMEAQEwDgYDVR0PAQH/BAQDAgPIMB0GA1UdDgQW
+BBSBRyh1gt+btHEORhgErNSbiL9FxDAfBgNVHSMEGDAWgBT60ksbo6DJYf4cqFA+aqK7RQ24ozAW
+BgYqgw4DAwUEDDAKBggqgw4DAwUBATAOBgoqgw4DCgEBAgMCBQADgYEAac/t5KbxJSmX7Mh1Wzlq
+m83UuY6iGn2TrnDTTN0n6oFuNBT9lFyvX6HwwXF7K2cV0C/D/bd2vvTrLVTdild6yqX+0rf4mHtL
+fZAo2WYt+9LeybWppE2ZGkaxXCS2di+bZwyPoV2NiA0QJRgQAtuCDy7LY+pySBNUtvBdUXgYcxM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></TenderSignData>
+Entity: line 84: parser error : EndTag: '</' not found
+fZAo2WYt+9LeybWppE2ZGkaxXC
+                          ^
+XMLSec Initialize - OK.
+ERROR 0x8f00026: XML parse doc - FAILED.
+ERROR 0x8f00026: XMLSec verify xml - FAILED.
